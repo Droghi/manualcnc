@@ -14,3 +14,11 @@ An manual control for 3 Axis of an CNC Machine using Arduino, DRV8825 Drivers, S
   * DRV8825/DRV8834/DRV8880
   * TB6600
   * generic stepper motor drivers (DIR/STEP)
+
+# Microstepping support :
+
+   - <a href="https://www.pololu.com/product/2134">DRV8834</a> Stepper Motor Driver up to 1:32
+   - <a href="https://www.pololu.com/product/1182">A4988</a> Stepper Motor Driver up to 1:16
+   - <a href="https://www.pololu.com/product/2131">DRV8825</a> Stepper Motor Driver up to 1:32
+   - <a href="https://www.pololu.com/product/2971">DRV8880</a> Stepper Motor Driver up to 1:16
+   - any other 2-pin stepper via DIR and STEP pins, microstepping up to 1:128 externally set
