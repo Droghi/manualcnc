@@ -9,12 +9,15 @@
 </div>
 <br>
 This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
+
+<br>
   
-  * Variable Speed (using a POT)
+  * Variable Speed (using a potentiometer)
   * Selectable Axis (using simple 4-pole selector)
   * Direction controll (FWD/REV)
 
 # Dependencies :
+
 [![arduino-library-badge](https://www.ardu-badge.com/badge/AccelStepper.svg?)](https://www.ardu-badge.com/AccelStepper)
 
 
@@ -37,3 +40,9 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
 
   - 4-wire bipolar stepper motor or 
   - some 6-wire unipolar in 4-wire configuration (leaving coil centers out)
+
+# Hardware :
+
+  * Arduino Compatible Board
+  * 3x <a href="https://www.pololu.com/category/120/stepper-motor-drivers">Stepper motor driver</a>, with 2-pin (DIR/STEP)
+  * 3x <a href="http://www.circuitspecialists.com/stepper-motor">Stepper Motor</a>, like NEMAxx (4-wire stepper motor)
