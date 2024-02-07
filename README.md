@@ -76,6 +76,12 @@ This is suggested wiring for running the examples unmodified. All the pins below
     - Cursor Right - Arduino 5V
 
 
--   driver board to motor (check motor coils pinout/colorcode).
-- Make sure to set the max current on the driver board to the motor limit (see below).
-- Make sure the motor power supply voltage is within the range supported by the driver board.
+*- Driver board to motor (check motor coils pinout/colorcode).*
+
+*- Make sure to set the max current on the driver board to the motor limit.*
+
+*- Make sure the motor power supply voltage is within the range supported by the driver board.*
+
+
+# Schematic :
+
