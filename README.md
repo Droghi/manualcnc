@@ -92,16 +92,16 @@ This is suggested wiring for running the examples unmodified. All the pins below
 </div>
 
 
-*- Purple is DIR Pin*
+$${\color{purple}Purple \space is \space DIR \space Pin}$$
 
-*- Light-Purple is STEP Pin*
+$${\color{magenta}Light-Purple \space is \space STEP \space Pin}$$
 
-*- Blue is for enabling each driver individualy*
+$${\color{blue}Blue \space is \space for \space enabling \space each \space driver \space individualy}$$
 
-*- White is for selecting the axis with rotary switch*
+$${\color{white}White \space is \space for \space selecting \space the \space axis \space with \space rotary \space switch}$$
 
-*- Cyan is for speed control*
+$${\color{cyan}Cyan \space is \space for \space speed \space control}$$
 
-*- Yellow is for forward motion*
+$${\color{yellow}Yellow \space is \space for \space forward \space motion}$$
 
-*- Green is for reverse motion*
+$${\color{green}Green \space is \space for \space reverse \space motion}$$
