@@ -1,4 +1,4 @@
-[![arduino-library-badge](https://www.ardu-badge.com/badge/AccelStepper.svg?)](https://www.ardu-badge.com/AccelStepper)
+
 # manualcnc ![Build](https://github.com/Droghi/manualcnc/actions/workflows/blank.yml/badge.svg)
 
 <div align="center">
