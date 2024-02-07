@@ -1,5 +1,4 @@
-
-# manualcnc ![Build](https://github.com/Droghi/manualcnc/actions/workflows/compile-sketch.yml/badge.svg)
+# Manual CNC Jogging ![Build](https://github.com/Droghi/manualcnc/actions/workflows/compile-sketch.yml/badge.svg) <a href="https://www.buymeacoffee.com/Droghi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a MCU&emoji=&slug=Droghi&button_colour=BD5FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 <div align="center">
   <p>
@@ -9,6 +8,10 @@
 </div>
 <br>
 <br>
+
+
+
+
 This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
   * Variable Speed (using a potentiometer)
   * Selectable Axis (using simple 4-pole selector)
