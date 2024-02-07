@@ -14,7 +14,7 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
   
   * Variable Speed (using a potentiometer)
   * Selectable Axis (using simple 4-pole selector)
-  * Direction controll (FWD/REV)
+  * Direction control (FWD/REV)
 
 # Dependencies :
 
