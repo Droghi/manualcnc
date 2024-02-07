@@ -141,3 +141,25 @@ void setup() {
     digitalWrite(OutputZ, LOW);
   }
 ```
+
+
+
+### Min and Max speed values can be changed when mapping of potentiometer is maked and should not be exceding the MaxSpeed.
+```C++
+  // Check the state of the forward button
+  if (digitalRead(buttonForwardPin) == LOW) {
+    int potValue = analogRead(potentiometerPin);
+    int speed = map(potValue, 0, 1023, 150, 1000);  // Map the potentiometer value to the speed range
+    stepper.setSpeed(speed);
+    stepper.runSpeed();  // Run the stepper motor at the set speed
+  }
+
+  // Check the state of the reverse button
+  if (digitalRead(buttonReversePin) == LOW) {
+    int potValue = analogRead(potentiometerPin);
+    int speed = map(potValue, 0, 1023, -150, -1000);  // Map the potentiometer value to the speed range
+    stepper.setSpeed(speed);
+    stepper.runSpeed();  // Run the stepper motor at the set speed
+  }
+}
+```
