@@ -56,7 +56,7 @@ This is suggested wiring for running the examples unmodified. All the pins below
     - DIR - D2
     - STEP - D3
     - GND - Arduino GND
-    - VMOT - Motor PSU + (positive voltage) *(check what PSU request the drivers)
+    - VMOT - Motor PSU + (positive voltage) **(check what PSU request the drivers)*
     - EN (Enable Driver Pin for X Axis) - D4
     - EN (Enable Driver Pin for Y Axis) - D5
     - EN (Enable Driver Pin for Z Axis) - D6
