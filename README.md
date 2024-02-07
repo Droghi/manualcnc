@@ -8,7 +8,11 @@
   <p> An manual control for 3 Axis of an CNC Machine using  <a href="https://www.arduino.cc"> Arduino </a>, Stepper motor Drivers, Stepper motors with variable speed and selectable axis </p>
 </div>
 <br>
-An manual control for 3 Axis of an CNC Machine using Arduino, DRV8825 Drivers, Stepper motors with variable speed and selectable axis
+This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
+  
+  * Variable Speed (using a POT)
+  * Selectable Axis (using simple 4-pole selector)
+  * Direction controll (FWD/REV)
 
 # Dependencies :
 [![arduino-library-badge](https://www.ardu-badge.com/badge/AccelStepper.svg?)](https://www.ardu-badge.com/AccelStepper)
