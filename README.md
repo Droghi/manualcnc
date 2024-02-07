@@ -1,5 +1,6 @@
 [![arduino-library-badge](https://www.ardu-badge.com/badge/AccelStepper.svg?)](https://www.ardu-badge.com/AccelStepper)
 # manualcnc
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 <div align="center">
   <p>
       <img width="20%" src="img/arduino-icon.svg">
