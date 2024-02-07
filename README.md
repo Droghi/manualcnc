@@ -8,10 +8,8 @@
   <p> An manual controling using push-buttons for 3 Axis of an CNC Machine using  <a href="https://www.arduino.cc"> Arduino </a>, Stepper motor Drivers, Stepper motors with variable speed and selectable axis </p>
 </div>
 <br>
-This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
-
 <br>
-  
+This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
   * Variable Speed (using a potentiometer)
   * Selectable Axis (using simple 4-pole selector)
   * Direction control (FWD/REV)
@@ -55,22 +53,20 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
 This is suggested wiring for running the examples unmodified. All the pins below can be changed.
 
 - Arduino to driver board:
-    - DIR - D8
-    - STEP - D9
+    - DIR - D2
+    - STEP - D3
     - GND - Arduino GND
-    - GND - Motor power GND
-    - VMOT - Motor power (check driver-specific voltage range)
-    - A4988/DRV8825 microstep control
-      - MS1/MODE0 - D10
-      - MS2/MODE1 - D11
-      - MS3/MODE2 - D12
-    - DRV8834/DRV8880 microstep control
-      - M0 - D10
-      - M1 - D11
-    - ~SLEEP (optional) D13
-
-- driver board to motor (this varies from motor to motor, check motor coils schematic).
-- 100uF capacitor between GND - VMOT 
+    - VMOT - Motor PSU + (positive voltage) *(check what PSU request the drivers)
+    - EN (Enable Driver Pin for X Axis) - D4
+    - EN (Enable Driver Pin for Y Axis) - D5
+    - EN (Enable Driver Pin for Z Axis) - D6
+- Rotary Switch :
+    - Pin C/COM - Arduino 5V
+    - Pin 1 - D7
+    - Pin 2 - D8
+    - Pin 3 - D9
+- FWD & REV Buttons
+    - 
+- driver board to motor (check motor coils pinout/colorcode).
 - Make sure to set the max current on the driver board to the motor limit (see below).
-- Have a motor power supply that can deliver that current.
 - Make sure the motor power supply voltage is within the range supported by the driver board.
