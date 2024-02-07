@@ -1,5 +1,5 @@
 
-# manualcnc ![Build](https://github.com/Droghi/manualcnc/actions/workflows/blank.yml/badge.svg)
+# manualcnc ![Build](https://github.com/Droghi/manualcnc/actions/workflows/compile_code.yml/badge.svg)
 
 <div align="center">
   <p>
