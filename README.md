@@ -167,3 +167,4 @@ void setup() {
   }
 }
 ```
+# *Full code on `/example/example.ino`*
