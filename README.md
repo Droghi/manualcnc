@@ -46,3 +46,5 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
   * Arduino Compatible Board
   * 3x <a href="https://www.pololu.com/category/120/stepper-motor-drivers">Stepper motor driver</a>, with 2-pin (DIR/STEP)
   * 3x <a href="http://www.circuitspecialists.com/stepper-motor">Stepper Motor</a>, like NEMAxx (4-wire stepper motor)
+  * A <a href="https://www.tme.eu/en/details/ck1031/rotary-switches/lorlin/">Rotary Switch</a> (4-pole)
+  * A <a href="https://www.tme.eu/en/details/prp167-10k-a/carbon-single-turn-potentiometers/telpod/prp167-10k-a-20p1/">10 KOhm Potentiometer</a>
