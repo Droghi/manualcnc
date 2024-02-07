@@ -105,3 +105,39 @@ $${\color{cyan}Cyan \space is \space for \space speed \space control}$$
 $${\color{yellow}Yellow \space is \space for \space forward \space motion}$$
 
 $${\color{green}Green \space is \space for \space reverse \space motion}$$
+
+
+
+# Code :
+
+### Set Pins with internal pull-up resistors and MaxSpeed + Acceleration.
+```C++
+void setup() {
+  pinMode(AxisX, INPUT_PULLUP);
+  pinMode(AxisY, INPUT_PULLUP);
+  pinMode(AxisZ, INPUT_PULLUP);
+
+  pinMode(OutputX, OUTPUT);
+  pinMode(OutputY, OUTPUT);
+  pinMode(OutputZ, OUTPUT);
+
+  pinMode(buttonForwardPin, INPUT_PULLUP);
+  pinMode(buttonReversePin, INPUT_PULLUP);
+
+  pinMode(potentiometerPin, INPUT);
+
+  stepper.setMaxSpeed(1000);   // Adjust the maximum speed of your stepper motor
+  stepper.setAcceleration(800);   // Adjust the acceleration
+}
+```
+
+
+### If you have 5+ Pole rotary switch none driver will be enabled for safety reasons. 
+```C++
+  } else {
+    // No input is LOW, set all output pins LOW
+    digitalWrite(OutputX, LOW);
+    digitalWrite(OutputY, LOW);
+    digitalWrite(OutputZ, LOW);
+  }
+```
