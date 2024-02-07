@@ -48,3 +48,4 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
   * 3x <a href="http://www.circuitspecialists.com/stepper-motor">Stepper Motor</a>, like NEMAxx (4-wire stepper motor)
   * A <a href="https://www.tme.eu/en/details/ck1031/rotary-switches/lorlin/">Rotary Switch</a> (4-pole)
   * A <a href="https://www.tme.eu/en/details/prp167-10k-a/carbon-single-turn-potentiometers/telpod/prp167-10k-a-20p1/">10 KOhm Potentiometer</a>
+  * 2x <a href="https://www.tme.eu/en/details/r13-553bl-01/standard-switches/sci/">ON-OFF SWITCH</a> (SPST)
