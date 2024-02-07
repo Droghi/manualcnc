@@ -61,12 +61,21 @@ This is suggested wiring for running the examples unmodified. All the pins below
     - EN (Enable Driver Pin for Y Axis) - D5
     - EN (Enable Driver Pin for Z Axis) - D6
 - Rotary Switch :
-    - Pin C/COM - Arduino 5V
+    - Pin C/COM - Arduino GND
     - Pin 1 - D7
     - Pin 2 - D8
     - Pin 3 - D9
 - FWD & REV Buttons
-    - 
-- driver board to motor (check motor coils pinout/colorcode).
+    - FWD Pin 1 - Arduino GND
+    - FWD Pin 2 - A0
+    - REV Pin 1 - Arduino GND
+    - REV Pin 2 - A1
+- Speed Control (POT)
+    - Cursor Left - Arduino GND
+    - Center - A2
+    - Cursor Right - Arduino 5V
+
+
+-   driver board to motor (check motor coils pinout/colorcode).
 - Make sure to set the max current on the driver board to the motor limit (see below).
 - Make sure the motor power supply voltage is within the range supported by the driver board.
