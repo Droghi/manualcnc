@@ -85,3 +85,17 @@ This is suggested wiring for running the examples unmodified. All the pins below
 
 # Schematic :
 
+<div align="center">
+  <p>
+      <img width="100%" src="img/Schematic Nano.png">
+  </p>
+</div>
+
+
+*- Purple is DIR Pin*
+*- Light-Purple is STEP Pin*
+*- Blue is for enabling each driver individualy*
+*- White is for selecting the axis with rotary switch*
+*- Cyan is for speed control*
+*- Yellow is for forward motion*
+*- Green is for reverse motion*
