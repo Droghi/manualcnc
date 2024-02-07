@@ -108,7 +108,7 @@ $${\color{green}Green \space is \space for \space reverse \space motion}$$
 
 
 
-# Code :
+# Code Setup :
 
 ### Set Pins with internal pull-up resistors and MaxSpeed + Acceleration.
 ```C++
