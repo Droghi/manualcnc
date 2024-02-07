@@ -1,5 +1,6 @@
-# Manual CNC Jogging ![Build](https://github.com/Droghi/manualcnc/actions/workflows/compile-sketch.yml/badge.svg) <a href="https://www.buymeacoffee.com/Droghi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a MCU&emoji=&slug=Droghi&button_colour=BD5FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
+# Manual CNC Jogging  <a href="https://www.buymeacoffee.com/Droghi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a MCU&emoji=&slug=Droghi&button_colour=BD5FFF&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
+![Build](https://github.com/Droghi/manualcnc/actions/workflows/compile-sketch.yml/badge.svg)
 <div align="center">
   <p>
       <img width="20%" src="img/arduino-icon.svg">
