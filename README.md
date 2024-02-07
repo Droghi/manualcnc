@@ -5,7 +5,7 @@
   <p>
       <img width="20%" src="img/arduino-icon.svg">
   </p>
-  <p> An manual control for 3 Axis of an CNC Machine using  <a href="https://www.arduino.cc"> Arduino </a>, Stepper motor Drivers, Stepper motors with variable speed and selectable axis </p>
+  <p> An manual controling using push-buttons for 3 Axis of an CNC Machine using  <a href="https://www.arduino.cc"> Arduino </a>, Stepper motor Drivers, Stepper motors with variable speed and selectable axis </p>
 </div>
 <br>
 This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with simple controls :
@@ -49,3 +49,28 @@ This is a simple code on Arduino IDE for controlling a 3 Axis CNC Maschine with 
   * A <a href="https://www.tme.eu/en/details/ck1031/rotary-switches/lorlin/">Rotary Switch</a> (4-pole)
   * A <a href="https://www.tme.eu/en/details/prp167-10k-a/carbon-single-turn-potentiometers/telpod/prp167-10k-a-20p1/">10 KOhm Potentiometer</a>
   * 2x <a href="https://www.tme.eu/en/details/r13-553bl-01/standard-switches/sci/">ON-OFF SWITCH</a> (SPST)
+
+# Wiring :
+
+This is suggested wiring for running the examples unmodified. All the pins below can be changed.
+
+- Arduino to driver board:
+    - DIR - D8
+    - STEP - D9
+    - GND - Arduino GND
+    - GND - Motor power GND
+    - VMOT - Motor power (check driver-specific voltage range)
+    - A4988/DRV8825 microstep control
+      - MS1/MODE0 - D10
+      - MS2/MODE1 - D11
+      - MS3/MODE2 - D12
+    - DRV8834/DRV8880 microstep control
+      - M0 - D10
+      - M1 - D11
+    - ~SLEEP (optional) D13
+
+- driver board to motor (this varies from motor to motor, check motor coils schematic).
+- 100uF capacitor between GND - VMOT 
+- Make sure to set the max current on the driver board to the motor limit (see below).
+- Have a motor power supply that can deliver that current.
+- Make sure the motor power supply voltage is within the range supported by the driver board.
